@@ -4,17 +4,16 @@
     box-sizing: border-box;
     font-family: 'Gothic A1 ', sans-serif;
 }
-dl, ol, ul {
-    margin-bottom: 0;
-}
-
 :root {
     --bg-body: #1a7ec0;
     --bg-cont: #1a7ec0;
     --bg-active: #801212;
 
 }
-
+dl, ol, ul {
+    margin-bottom: 0;
+}
+/* banner */
 .tab-container {
     text-align: center;
     justify-content: center;
@@ -146,6 +145,7 @@ a {
     list-style-type: none;
     text-decoration: none;
     justify-content: space-between;
+    color: #909090;
 
 }
 
@@ -311,6 +311,7 @@ footer {
 /* spin cam  */
 .container-servicios {
     text-align: center;
+    color:#f3f3f3;
     display: flex;
     justify-content: center;
     width: 950px;

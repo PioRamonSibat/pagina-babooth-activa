@@ -10,6 +10,13 @@
     --bg-active: #801212;
 
 }
+section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
 dl, ol, ul {
     margin-bottom: 0;
 }
@@ -17,8 +24,10 @@ dl, ol, ul {
 .tab-container {
     text-align: center;
     justify-content: center;
-    width: 950px;
+    max-width: 950px;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
     border-radius: 5px;
     border: solid 1px #000;
@@ -96,10 +105,12 @@ ul .options{
 }
 
 body {
-    background: #005efffe;
+   background: var(--bg-active);
 }
 
 main {
+    max-width:1304px;
+    margin: auto;
     margin-top: 3em;
     display: flex;
     flex-wrap: wrap;
@@ -145,8 +156,8 @@ a {
     list-style-type: none;
     text-decoration: none;
     justify-content: space-between;
-    color: #909090;
-
+    color: #000;
+    
 }
 
 ol {
@@ -156,8 +167,11 @@ ol {
 
 }
 .card {
+    margin: auto;
     position: relative;
     height: 20rem;
+    max-width: 306px;
+    max-height: 306px;
     background-color: #000;
 }
 
@@ -206,14 +220,13 @@ ol {
     border-top: solid 1px #f3f3f3;
     height: 50px;
     line-height: 50px;
-}
-
-.link {
     text-decoration: none;
     color: #f3f3f3;
     justify-content: center;
     display: flex;
-
+}
+.link a {
+    color: #fff;
 }
 
 .tx-card {
@@ -243,6 +256,7 @@ footer {
     display: flex;
     justify-content: center;
     background-color: rgb(179, 174, 174);
+    font-size: small;
 
 }
 
@@ -251,7 +265,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     max-width: 950px;
 }
 
@@ -355,4 +369,12 @@ flex-wrap: wrap;
 h3{
     color: #fff;
     
+}
+.container text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }

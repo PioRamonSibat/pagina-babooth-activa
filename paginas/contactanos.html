@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -12,13 +12,14 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../logos/fontello-9f07b65e/fontello-9f07b65e/css/fontello.css">
 </head>
-<body>
+
+<body id="cuerpoContactanos">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid header__logo">
@@ -36,7 +37,7 @@
                             <a class="nav-link active" aria-current="page" href="#">FUN BRANDING</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/paginas/estructuras.html">ESTRUCTURAS</a>
+                            <a class="nav-link active" href="./estructuras.html">ESTRUCTURAS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -83,93 +84,129 @@
             </div>
         </nav>
     </header>
-    
-    <main>
-        <div class="container py-3">
-            <h1 class="fs-4">CONTACTANOS</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-xs-6">
-                <form class="form" method="POST" action=""autocomplete="off">
-                    <div class="xs-3">
-                        <label for="name"class="form-label">Nombre</label>
-                        <input type="text"class="form-control" id="name" name="name" required autofocus>
+    <main id="contactos">
+        <div class="container">
+            <h1 class="text-center">Contactanos!</h1>
+            <form method="post" action="https://formsubmit.co/pio@babooth.com.ar" role="form">
+                <div class="messages"></div>
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="form_name">Nombre <span class="text-danger">*</span></label>
+                                <input id="form_name" type="text" name="nombre" class="form-control"
+                                    placeholder="Firstname" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="form_lastname"> Apellido<span class="text-danger">*</span></label>
+                                <input id="form_lastname" type="text" name="apellido" class="form-control"
+                                    placeholder="Lastname" required="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="xs-3">
-                        <label for="email"class="form-label">Correo Electronico</label>
-                        <input type="text"class="form-control" id="email" name="email" required>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="form_email">Correo <span class="text-danger">*</span></label>
+                                <input id="form_email" type="email" name="correo" class="form-control"
+                                    placeholder="email" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group mb-2">
+                                <label for="form_phone">Telefono</label>
+                                <input id="form_phone" type="tel" name="telefono" class="form-control" placeholder="phone">
+                            </div>
+                        </div>
                     </div>
-                    <div class="xs-3">
-                        <label for="affair"class="form-label">Asunto</label>
-                        <input type="text"class="form-control" id="affair" name="affair" required>
-                    </div>
-                    <div class="xs-3">
-                        <div><label for="">Seleccionar servicio/s</label></div>
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                    </div>
-                    <div class="xs-3">
-                        <div><label for="">Seleccionar Estructura/s</label></div>
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                        <label for="">inflable</label>
-                        <input type="checkbox" name="inflable" id="inflable">
-                    </div>
-                    <div class="xs-3">
-                        <label for="message"class="form-label">NMensaje</label>
-                        <textarea name="form-control" id="message" name="message" cols="30" rows="10" required></textarea>
-                    </div>
-                    <button type="submit"name="submit" btn btn-primary>ENVIAR</button>
-                </form>
-            </div>
-        </div>
-        <div class="container-variasredes">
-            <input type="checkbox" id="btn-mas">
-            <div class="redes">
-                <a href="#" class="icon-facebook"></a>
-                <a href="https://www.instagram.com/babootharg "class="btn-instagram"  target="_blank" > <i class="icon-instagram"></i>
-                </a>
-                <a href="https://api.whatsapp.com/send/?phone=541144723070&text=Hola%2C+quisiera+saber+m%C3%A1s+sobre+los+servicios+que+brindan.&type=phone_number&app_absent=0" class="btn-whatsapp" target="_blank" ><i class="icon-whatsapp"></i></a>
-                <a href="#" class="icon-vimeo"></a>
-            </div>
-            <div class="btn-mas">
-                <label for="btn-mas" class="icon-plus"></label>
-            </div>
-        </div>
-    </main>
+                    <div class="row checkbox">
+                        <div class="col-md-12">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Cabina Premium" name="checkbox1">
+                                <label class="form-check-label" for="inlineCheckbox1">Cabina Premium</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Cabina Inflable"name="checkbox2">
+                                <label class="form-check-label" for="inlineCheckbox2">Cabina Inflable</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Totem Photobooth"name="checkbox3">
+                                <label class="form-check-label" for="inlineCheckbox3">Totem Photobooth</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Monster Totem"name="checkbox4">
+                                <label class="form-check-label" for="inlineCheckbox3">Monster Totem</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="Mirror Booth"name="checkbox5">
+                                <label class="form-check-label" for="inlineCheckbox3">Mirror Booth</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="Barrel Booth"name="checkbox6">
+                                <label class="form-check-label" for="inlineCheckbox3">Barrel Booth</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox8" value="Moto Booth"name="checkbox7">
+                                <label class="form-check-label" for="inlineCheckbox3">Moto Booth</label>
+                            </div>                            
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox9" value="Auto Booth"name="checkbox8">
+                                <label class="form-check-label" for="inlineCheckbox3">Auto Booth</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox10" value="PhotoBus"name="checkbox9">
+                                <label class="form-check-label" for="inlineCheckbox3">PhotoBus</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="Spin Cam 360º"name="checkbox10">
+                                <label class="form-check-label" for="inlineCheckbox3">Spin Cam 360º</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox11" value="Shoot and Print"name="checkbox11">
+                                <label class="form-check-label" for="inlineCheckbox3">Shoot and Print</label>
+                            </div>
 
-    <footer>
-        <div class="conteiner-foot">
-            <p>Copyright 2021   BA Booth ® | Buenos Aires Argentina
-                <span><a href="">Términos y Condiciones de Contratación</a></span>|<span><a href=""> Política de Privacidad </a></span> |<span><a href=""> Defensa del consumidor </a></span>| <span><a href=""></a> Términos y Condiciones de Uso</span>
-            </p>
+                            <!-- <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox12" value="optio12">
+                                <label class="form-check-label" for="inlineCheckbox3">Bullet Time 45º/90º</label>
+                            </div>  -->
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox14" value="Snap Shoot"name="checkbox13">
+                                <label class="form-check-label" for="inlineCheckbox3">Snap Shoot</label>
+                            </div>
+                        </div> 
+                    <div class="row message">   
+                            <div class="form-group mb-2">
+                                <label for="form_message">Mensaje <span class="text-danger">*</span></label>
+                                <textarea id="form_message" name="mensaje" class="form-control" placeholder="Message"
+                                    rows="4" required="required"></textarea>
+                            </div>                        
+                        <div class="col-md-12 mt-2">
+                            <input type="submit" class="btn btn-success btn-send" value="Enviar Mensaje">
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="_next" value="http://localhost/pagina-babooth-activa/paginas/contactanos.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+            </form>
         </div>
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

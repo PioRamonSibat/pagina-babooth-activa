@@ -401,4 +401,10 @@ h3{
 .row .message{
     text-align: justify;
 }
+
+.partners img{
+    background-color: #fff;
+    margin: 2em;
+}
+
 /*  */

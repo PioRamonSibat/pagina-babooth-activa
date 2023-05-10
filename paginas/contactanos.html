@@ -90,19 +90,13 @@
                 <div class="messages"></div>
                 <div class="controls">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <div class="form-group mb-2">
                                 <label for="form_name">Nombre <span class="text-danger">*</span></label>
                                 <input id="form_name" type="text" name="nombre" class="form-control"
                                     placeholder="Firstname" required="required">
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group mb-2">
-                                <label for="form_lastname"> Apellido<span class="text-danger">*</span></label>
-                                <input id="form_lastname" type="text" name="apellido" class="form-control"
-                                    placeholder="Lastname" required="required">
-                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -115,9 +109,9 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group mb-2">
-                                <label for="form_phone">Telefono</label>
+                                <label for="form_phone">Telefono <span class="text-danger">*</span></label>
                                 <input id="form_phone" type="tel" name="telefono" class="form-control"
-                                    placeholder="phone"required="required">
+                                    placeholder="phone" required="required">
                             </div>
                         </div>
                     </div>
@@ -193,15 +187,15 @@
                     </div>
                     <div class="row message">
                         <div class="form-group mb-2">
-                            <label for="form_message">Salon/Ubicacion <span class="text-danger">*</span></label>
+                            <label for="form_message">Salon/Ubicacion</label>
                             <textarea id="form_text" name="Salon/Ubicacion" class="form-control"
-                                placeholder="Salon/ Ubicacion" rows="1" required="required"></textarea>
+                                placeholder="Salon/ Ubicacion" rows="1"></textarea>
                         </div>
                     </div>
                     <div class="row date">
                         <div class="form-group mb-2">
-                            <label for="start">Fecha de Evento: <span class="text-danger">*</span></label>
-                            <input type="date" id="date" name="Fehca del Evento" value="dd/mm/aa" min="2018-01-01"max="2040-12-31" required="required">
+                            <label for="start">Fecha de Evento:</span></label>
+                            <input type="date" id="date" name="Fehca del Evento" value="dd/mm/aa" min="2018-01-01"max="2040-12-31">
                         </div>
                     </div>
                     <div class="row message">
@@ -221,7 +215,6 @@
                 <input type="hidden" name="_template" value="table">
             </form>
         </div>
-
 
     </main>
     <footer>

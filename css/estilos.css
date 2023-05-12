@@ -20,7 +20,7 @@ section{
 dl, ol, ul {
     margin-bottom: 0;
 }
-/* banner */
+
 .tab-container {
     text-align: center;
     justify-content: center;
@@ -105,7 +105,7 @@ ul .options{
 }
 
 body {
-   background: var(--bg-body);
+   background: var(--bg-active);
 }
 
 main {
@@ -117,58 +117,10 @@ main {
     justify-content: center;
 
 }
+/* BANNER CON IMAGENES Y VIDEOS GIF PAGINA DE INICIO */
 span .card-group{
 max-width: 1304px;
 margin: auto;
-
-}
-
-main .title-us {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 20px;
-    max-width: 950px;
-    color: #f3f3f3;
-
-
-}
-
-main p {
-    justify-content: center;
-    text-align: justify;
-    font-size: 15px;
-    margin: 30px 30px;
-}
-
-ul {
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: center;
-    text-align: center;
-
-}
-
-li {
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-between;
-
-}
-
-a {
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-between;
-    color: #000;
-    
-}
-
-ol {
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-between;
 
 }
 .card {
@@ -254,6 +206,55 @@ ol {
 
 .card:hover .back {
     transform: perspective(600px)rotateY(360deg);
+}
+/* MAIN TODAS LAS PAGINAS */
+main .title-us {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    max-width: 950px;
+    color: #f3f3f3;
+
+
+}
+
+main p {
+    justify-content: center;
+    text-align: justify;
+    font-size: 15px;
+    margin: 30px 30px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    color: #000;
+    
+}
+
+ol {
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+
 }
 
 footer {
@@ -385,7 +386,7 @@ flex-wrap: wrap;
     width: 950px;
     height: auto;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
-    border-radius: 15%;
+    border-radius: 5%;
     border: solid 1px #000;
     overflow: hidden;
 }
@@ -427,4 +428,10 @@ h3{
     background-color: #fff;
     margin: 2em;
 }
+.photobooth img{
+    height: 70%;
+    width: 70%;
+    margin: 2em;
+}
+
 /*  */

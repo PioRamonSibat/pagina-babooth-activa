@@ -105,7 +105,7 @@ ul .options{
 }
 
 body {
-   background: var(--bg-active);
+    background: var(--bg-active);
 }
 
 main {
@@ -360,7 +360,6 @@ flex-wrap: wrap;
     display:flex;
     flex-wrap: wrap;
 }
-
 .container-paquetebasico{
     margin-top: 3em;
     text-align: center;
@@ -394,7 +393,7 @@ h3{
     color: #fff;
     
 }
-.container text-center{
+.container .text-center{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -428,10 +427,29 @@ h3{
     background-color: #fff;
     margin: 2em;
 }
+.photobooth{
+    text-align: center;
+    justify-content: center;
+}
 .photobooth img{
     height: 70%;
     width: 70%;
     margin: 2em;
 }
+/* pagina bullet */
+.bullet{
+    text-align: center;
+    justify-content: center;
+}
+.bullet img{
+    height: 70%;
+    width: 70%;
+    margin: 2em;
 
-/*  */
+}
+
+/* Flipbook*/
+.content-right-flipbook h3{
+    text-align: center;
+    margin-top: 10%;
+}

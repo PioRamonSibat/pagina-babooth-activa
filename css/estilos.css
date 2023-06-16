@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gothic A1 ';
+    font-family: 'Gothic A1', sans-serif;
 }
 :root {
     --bg-body: #D6FFF6;
@@ -452,4 +452,14 @@ h3{
 .content-right-flipbook h3{
     text-align: center;
     margin-top: 10%;
+}
+
+/* VideoBooth*/
+.container-opciones-video{
+    text-align: center;
+    margin: 2rem;
+    color: #f3f3f3;
+    border: solid 1px #000;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
+
 }

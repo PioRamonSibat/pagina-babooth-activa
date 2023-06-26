@@ -28,10 +28,7 @@ dl, ol, ul {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
-    border-radius: 5px;
-    border: solid 1px #000;
-    overflow: hidden;
+    color:#fff
 
 }
 
@@ -398,10 +395,7 @@ flex-wrap: wrap;
     grid-row: auto;
     width: 950px;
     height: auto;
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
-    border-radius: 5%;
-    border: solid 1px #000;
-    overflow: hidden;
+
 }
 h3{
     color: #fff;

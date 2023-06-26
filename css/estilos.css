@@ -8,6 +8,7 @@
     --bg-body: #D6FFF6;
     --bg-cont: #37a2ff;
     --bg-active: #15bdeb;
+    --bg-photobth: #000;
 
 }
 section{
@@ -35,29 +36,31 @@ dl, ol, ul {
 .options {
     display: flex;
     width: 100%;
-    height: 15%;
-    border: solid 1px #000;
-    list-style: none;
-
-}
-.options {
-    display: flex;
-    width: 100%;
-    height: 15%;
-    list-style: none;
-    text-decoration: none;
-    margin-top: 0;
     border: solid 1px #000;
     padding-left: 0;
     justify-content: space-between;
+    overflow: hidden;
+}
+.options2 {
+    display: flex;
+    width: 100%;
+    border: solid 1px #000;
+    padding-left: 0;
+    justify-content: space-between;
+    overflow: hidden;
 }
 ul .options{
     padding-left: 0%;
     margin-bottom:0%;
     margin-top: 0;
 }
+.options li:hover{
+    background: #000;
+
+}
 .option {
-    flex-grow: 8;
+    flex-grow: 10;
+    flex-direction: row;
     text-align: center;
     line-height: 90px;
     color: #fff;
@@ -65,8 +68,9 @@ ul .options{
     cursor: pointer;
 }
 
+
 .option-active {
-    background: var(--bg-active);
+    background: var(--bg-photobth);
     border-bottom: 1px solid rgba(7, 63 95, .4);
 }
 
@@ -84,7 +88,7 @@ ul .options{
 }
 
 .content-active {
-    background: var(--bg-cont);
+    background: var(--bg-active);
     display: block;
 }
 

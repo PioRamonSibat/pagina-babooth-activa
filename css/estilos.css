@@ -376,6 +376,20 @@ flex-wrap: wrap;
 .container-paquetebasico ul li{
     color: #fff;
 }
+.container-paquetebasico-share{
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    justify-content: center;
+    display:grid;
+    grid-row: auto;
+    width: 950px;
+    height: auto;
+    color: #fff;
+    border-style: dashed;
+    
+}
 .container-adicionales{
     margin-top: 3em;
     text-align: center;
@@ -475,4 +489,39 @@ h3{
 }
 .texto-right{
     text-align: center;
+}
+.container-hashtag{
+    margin-top: 3em;
+    text-align: center;
+    justify-content: center;
+    display:grid;
+    grid-row: auto;
+    width: 950px;
+}
+ .hashtag img{
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+    width: 70%;
+    height: 70%;
+}
+.hashtag h5{
+    color: #fff;
+    font-size: x-small;
+}
+.hashtag h3{
+    color: #fff;
+    font-size: x-larges;
+}
+.formatos-impresion{
+    margin-top: 3em;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-row: auto;
+}
+.hashtag{
+    align-items: center;
+    justify-content: center;
+
 }

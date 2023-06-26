@@ -463,3 +463,16 @@ h3{
     box-shadow: 3px 5px 10px rgba(0, 0, 0, .8);
 
 }
+
+/*shareprint*/
+.banner-share{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.texto-right{
+    text-align: center;
+}
